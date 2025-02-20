@@ -1,0 +1,121 @@
+* {
+    border: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Background {
+    background-image: url("https://images.pexels.com/photos/161758/governor-s-mansion-montgomery-alabama-grand-staircase-161758.jpeg?cs=srgb&dl=pexels-pixabay-161758.jpg&fm=jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px ;
+    /* width: 95vw; */
+}
+.Nav-bar-logo-name {
+    display: flex;
+}
+.Nav-bar-logo {
+    background-image: url(T\ &\ S\ Logo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 150px;
+    width: 200px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+
+.Nav-bar-anchor a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px;
+    font-size: 19px;
+    
+    margin-bottom: 60px;
+    font-weight: bold;
+}
+
+.Nav-bar-anchor {
+    display: flex;
+    margin-top: 60px;
+    margin-left: 590px;
+    flex-wrap: wrap;
+}
+.Nav-bar-anchor a:hover {
+    border-bottom: 3px solid #006eff;
+    color: #000000;
+}
+
+.Nav-bar-anchor a:active {
+    border-bottom: 3px solid #dbff27;
+    color: #4eff4e;   
+}
+.Title {
+    color: #000000;
+    font-size: 50px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+.Title:hover {
+    background-color: #b4b4b4;
+}
+.YouTube {
+    padding: 20px;
+    font-size: 1.09rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+}
+.YouTube:hover {
+    color: #ff00bf;
+}
+.Button {
+    text-align: center;
+}
+.Button:hover {
+    color: #000000;
+}
+
+.Button1 {
+    border: 3px solid;
+    text-align: center;
+    /* background-color: #000000; */
+    /* color: #ffffff; */
+    padding: 20px;
+    font-size: 1.2rem;
+    background-color: none;
+    width: 180px;
+    /* font-weight: bold; */
+    border-radius: 30px;
+    /* margin-top: 20px; */
+    margin-left: 20px;
+    /* margin-right: 20px; */
+    /* margin-bottom: 20px; */
+}
+.Button1:hover { 
+    color: #00e1ff;
+}
+
+.Button2 {
+    border: 3px solid;
+    text-align: center;
+    /* background-color: #000000; */
+    /* color: #ffffff; */
+    padding: 20px;
+    font-size: 1.2rem;
+    background-color: none;
+    width: 180px;
+    /* font-weight: bold; */
+    border-radius: 30px;
+    /* margin-top: 20px; */
+    margin-left: 20px;
+    /* margin-right: 20px; */
+    /* margin-bottom: 20px; */
+}
+.Button2:hover { 
+    color: #00e1ff;
+}

@@ -1,0 +1,119 @@
+* {
+    border: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Background {
+    background-image: url("backgroung-baeutiful\ pick.avif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh ;
+}
+.Nav-bar-logo-name {
+    display: flex;
+}
+.Nav-bar-logo {
+    background-image: url(T\ &\ S\ Logo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 150px;
+    width: 200px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+
+.Nav-bar-anchor a {
+    text-decoration: none;
+    color: #000000;
+    padding: 10px;
+    font-size: 19px;
+    margin-bottom: 60px;
+    font-weight: bold;
+}
+
+.Nav-bar-anchor {
+    display: flex;
+    margin-top: 60px;
+    margin-left: 590px;
+    flex-wrap: wrap;
+}
+.Nav-bar-anchor a:hover {
+    border-bottom: 4px solid #00f2ea;
+    border-radius: 5px;
+    color: #ffffff;
+    padding: 10px;
+    font-weight: 600;
+}
+
+.Nav-bar-anchor a:active {
+    border-bottom: 3px solid #dbff27;
+    color: #4eff4e;   
+}
+.one-side {
+    display: flex;
+    /* margin-top: 50px; */
+    margin-left: 90px;
+    font-size: 1.2rem;
+}
+p {
+    font-weight: bold;
+}
+h1 {
+    font-size: 3rem;
+    font-weight: bold
+}
+.interview {
+    margin-top: 50px;
+}
+
+.button-click {
+    background-color: #2a2a2a;
+    border: none;
+    color: white;
+    padding: 10px;
+    width: 130px;
+    height: 50px;
+    font-size: 1.2rem;
+    /* cursor: pointer; */
+    border-radius: 15px;
+    margin-top: 10px;
+}
+.button-click:hover {
+    background-color: #888888;
+    color: #000000;
+}
+.NAME :hover {
+    color: #000000;
+}
+.one-side img {
+    margin-left: 100px;
+    height:440px;
+    width: 430px
+}
+.logo-icon {
+    display: flex;
+    margin-top: 30px;
+}
+.facebook-logo img {
+    margin-left: 0px;
+    width: 60px;
+    height: 40px;
+}
+.facebook-logo :hover {
+    color: #ff0000;
+}
+.instagram-logo img {
+    margin-left: 15px;
+    width: 60px;
+    height: 50px;
+}
+
+.twitter-logo img {
+    margin-left: 15px;
+    height: 50px;
+    width: 50px;
+}

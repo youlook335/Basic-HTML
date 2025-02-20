@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        #span{
+    border-top: 10px solid black;
+    border-bottom: 10px solid blue;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    animation: Animate 2s steps(10) 0s infinite normal;
+}
+@keyframes Animate{
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+#hover {
+    background-color: #ff411b;
+    height: 250px;
+    width: 250px;
+    font-size: xx-large;
+    text-align: center;
+    align-content:center ;
+    border: 2px solid black;
+    position: absolute;
+    top: 200px;
+    left: 400px;
+    animation: colorguide 2s ease-in 0.25s infinite normal;
+}
+@keyframes colorguide{
+    0%{
+        background-color: #ff411b;
+        font-size: x-large;
+        color: blue;
+    }
+    50%{
+        background-color: #a129ff;
+        font-size: xx-large;
+        color: chartreuse;
+        height: 300px;
+        width: 200px;
+        left: 0px;
+    }
+    100%{
+        left: 400px; 
+       background-color: #a00f12ff;
+       animation-delay: 3s;
+       color: #11ff00;
+        font-family: sans-serif;
+        align-content: end;
+        height: 200px;
+        width: 300px;
+    }
+}
+span{
+    background-color: #ac47ff;
+}
+@keyframes asign {
+    0%{
+        background-color: #11ff00;
+    }
+    50%{
+        color: blue;
+    }
+}
+    </style>
+</head>
+<body>
+   <div id="span">  </div>
+   <div id="hover">  </div>
+</body>
+</html>
